@@ -241,7 +241,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4B85ED 0%, #4B70B2 100%);
+    opacity: 0.8;
 }
 
 .text-color {
@@ -578,19 +579,21 @@ header .go-back i {
     line-height: 1.2em;
     margin-bottom: 20px;
     position: relative;
+    color: black;
 }
 
 .bg-cover .description {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: black;
 }
 
 .bg-cover .post-title {
     margin: 0 auto;
     font-size: 2.5rem;
     font-weight: 400;
+
 }
 
 @-webkit-keyframes rainbow {
